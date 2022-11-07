@@ -10,6 +10,12 @@ public class Main {
         hero1.changeForce(20);
         hero1.vievForce();
         System.out.println(hero1.vievForce());
+        hero1.changeMana(60);
+        hero1.vievMana();
+        System.out.println(hero1.vievMana());
+        hero1.changeNewOld(false);
+        hero1.vievNewOld();
+        System.out.println(hero1.vievNewOld());
 
     }
 }

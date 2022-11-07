@@ -31,6 +31,19 @@ public class Hero{
     public int vievForce(){
         return sila;
     }
+    public void changeMana(int mana){
+        this.mana = mana;
+    }
+    public int vievMana(){
+        return mana;
+    }
+    public void changeNewOld(boolean noweStare){
+        this.noweStare = noweStare;
+    }
+    public boolean vievNewOld(){
+        return noweStare;
+    }
+
 
 
 
